@@ -196,9 +196,9 @@ fn sum_odd_numbers(up_to: u32) -> u32 {
     acc
 }
 
-fn foo() -> ! {
-    panic!("This call never returns.");
-}
+// fn foo() -> ! {
+//     panic!("This call never returns.");
+// }
 
 fn some_fn() {
     ()
